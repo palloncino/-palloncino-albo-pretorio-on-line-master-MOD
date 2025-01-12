@@ -96,7 +96,7 @@ function Visualizza_Atto($Parametri){
 					</tr>
 					<tr>
 						<th class="w-25 text-right"><?php _e("Data fine Pubblicazione","albo-online");?></th>
-						<td class="align-middle"><?php echo ap_VisualizzaData($risultato->DataFine)?></td>
+						<td class="align-middle data-fine-pubblicazione"><?php echo ap_VisualizzaData($risultato->DataFine);?></td>
 					</tr>
 					<tr>
 						<th class="w-25 text-right"><?php _e("Data oblio","albo-online");?></th>

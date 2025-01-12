@@ -97,7 +97,7 @@ echo '
 		</tr>
 		<tr>
 			<th>'.__("Data fine Pubblicazione","albo-online").'</th>
-			<td style="vertical-align: middle;">'.ap_VisualizzaData($risultato->DataFine).'</td>
+			<td style="vertical-align: middle; data-fine-pubblicazione test-visatto-page-data-fine-pubblicazione">'.ap_VisualizzaData($risultato->DataFine).'</td>
 		</tr>
 		<tr>
 			<th>'.__("Data oblio","albo-online").'</th>

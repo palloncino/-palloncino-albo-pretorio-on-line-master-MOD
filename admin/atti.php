@@ -1045,7 +1045,7 @@ function Nuovo_atto(){
 	if (isset($_REQUEST['DataOblio']))
 		$DataO=htmlentities($_REQUEST['DataOblio']);
 	else
-		$DataO=ap_VisualizzaData((date("Y")+6)."-01-01");
+		$DataO=ap_VisualizzaData(date("Y")."-12-31");
 	if (isset($_REQUEST['Note']))
 		$Note=$_REQUEST['Note'];
 	else	
